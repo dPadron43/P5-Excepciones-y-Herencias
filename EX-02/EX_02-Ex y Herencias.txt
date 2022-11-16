@@ -1,0 +1,7 @@
+¿Qué tiene de especial la excepción del tipo “RuntimeException”?
+
+-Las RuntimeException se diferencian del resto de excepciones 
+en que no son de tipo checked. Una excepción de tipo checked 
+debe ser capturada o bien especificar que puede ser lanzada 
+de forma obligatoria, y si no lo hacemos obtendremos un error 
+de compilación.
